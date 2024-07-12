@@ -1,0 +1,1174 @@
+{
+  "artifacts": [
+    {
+      "id": "093d37a7a09a81c0",
+      "name": "base-files",
+      "version": "10.3+deb10u12",
+      "type": "deb",
+      "foundBy": "dpkg-db-cataloger",
+      "locations": [
+        {
+          "path": "/usr/share/doc/base-files/copyright",
+          "layerID": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb",
+          "accessPath": "/usr/share/doc/base-files/copyright",
+          "annotations": {
+            "evidence": "supporting"
+          }
+        },
+        {
+          "path": "/var/lib/dpkg/status.d/base",
+          "layerID": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb",
+          "accessPath": "/var/lib/dpkg/status.d/base",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "GPL",
+          "spdxExpression": "",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/usr/share/doc/base-files/copyright",
+              "layerID": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb",
+              "accessPath": "/usr/share/doc/base-files/copyright"
+            }
+          ]
+        }
+      ],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:base-files:base-files:10.3\\+deb10u12:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:base-files:base_files:10.3\\+deb10u12:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:base_files:base-files:10.3\\+deb10u12:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:base_files:base_files:10.3\\+deb10u12:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:base:base-files:10.3\\+deb10u12:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:base:base_files:10.3\\+deb10u12:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/debian/base-files@10.3%2Bdeb10u12?arch=amd64&distro=debian-10",
+      "metadataType": "dpkg-db-entry",
+      "metadata": {
+        "package": "base-files",
+        "source": "",
+        "version": "10.3+deb10u12",
+        "sourceVersion": "",
+        "architecture": "amd64",
+        "maintainer": "Santiago Vila <sanvila@debian.org>",
+        "installedSize": 340,
+        "provides": [
+          "base"
+        ],
+        "preDepends": [
+          "awk"
+        ],
+        "files": []
+      }
+    },
+    {
+      "id": "0ba428bcf57d65eb",
+      "name": "github.com/google/uuid",
+      "version": "v1.6.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/vuln-sbom-issue",
+          "layerID": "sha256:fa8135567f4f202fd85a07db823e10dd7c2e8d8bde86872c3bb34831fcb30ab5",
+          "accessPath": "/vuln-sbom-issue",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google:uuid:v1.6.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/google/uuid@v1.6.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.18.10",
+        "architecture": "amd64",
+        "h1Digest": "h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=",
+        "mainModule": "vuln-sbom-issue",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "2a5997c68ab4fdae",
+      "name": "libc6",
+      "version": "2.28-10+deb10u1",
+      "type": "deb",
+      "foundBy": "dpkg-db-cataloger",
+      "locations": [
+        {
+          "path": "/usr/share/doc/libc6/copyright",
+          "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a",
+          "accessPath": "/usr/share/doc/libc6/copyright",
+          "annotations": {
+            "evidence": "supporting"
+          }
+        },
+        {
+          "path": "/var/lib/dpkg/status.d/libc6",
+          "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a",
+          "accessPath": "/var/lib/dpkg/status.d/libc6",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "GPL-2",
+          "spdxExpression": "GPL-2.0-only",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/usr/share/doc/libc6/copyright",
+              "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a",
+              "accessPath": "/usr/share/doc/libc6/copyright"
+            }
+          ]
+        },
+        {
+          "value": "LGPL-2.1",
+          "spdxExpression": "LGPL-2.1-only",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/usr/share/doc/libc6/copyright",
+              "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a",
+              "accessPath": "/usr/share/doc/libc6/copyright"
+            }
+          ]
+        }
+      ],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libc6:libc6:2.28-10\\+deb10u1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/debian/libc6@2.28-10%2Bdeb10u1?arch=amd64&upstream=glibc&distro=debian-10",
+      "metadataType": "dpkg-db-entry",
+      "metadata": {
+        "package": "libc6",
+        "source": "glibc",
+        "version": "2.28-10+deb10u1",
+        "sourceVersion": "",
+        "architecture": "amd64",
+        "maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
+        "installedSize": 12333,
+        "depends": [
+          "libgcc1"
+        ],
+        "files": []
+      }
+    },
+    {
+      "id": "a33554133be76f60",
+      "name": "libssl1.1",
+      "version": "1.1.1n-0+deb10u3",
+      "type": "deb",
+      "foundBy": "dpkg-db-cataloger",
+      "locations": [
+        {
+          "path": "/usr/share/doc/libssl1.1/copyright",
+          "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a",
+          "accessPath": "/usr/share/doc/libssl1.1/copyright",
+          "annotations": {
+            "evidence": "supporting"
+          }
+        },
+        {
+          "path": "/var/lib/dpkg/status.d/libssl1",
+          "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a",
+          "accessPath": "/var/lib/dpkg/status.d/libssl1",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1n-0\\+deb10u3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/debian/libssl1.1@1.1.1n-0%2Bdeb10u3?arch=amd64&upstream=openssl&distro=debian-10",
+      "metadataType": "dpkg-db-entry",
+      "metadata": {
+        "package": "libssl1.1",
+        "source": "openssl",
+        "version": "1.1.1n-0+deb10u3",
+        "sourceVersion": "",
+        "architecture": "amd64",
+        "maintainer": "Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>",
+        "installedSize": 4101,
+        "depends": [
+          "libc6 (>= 2.25)",
+          "debconf (>= 0.5) | debconf-2.0"
+        ],
+        "files": []
+      }
+    },
+    {
+      "id": "ca5b7c61811429f3",
+      "name": "netbase",
+      "version": "5.6",
+      "type": "deb",
+      "foundBy": "dpkg-db-cataloger",
+      "locations": [
+        {
+          "path": "/usr/share/doc/netbase/copyright",
+          "layerID": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb",
+          "accessPath": "/usr/share/doc/netbase/copyright",
+          "annotations": {
+            "evidence": "supporting"
+          }
+        },
+        {
+          "path": "/var/lib/dpkg/status.d/netbase",
+          "layerID": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb",
+          "accessPath": "/var/lib/dpkg/status.d/netbase",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "GPL-2",
+          "spdxExpression": "GPL-2.0-only",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/usr/share/doc/netbase/copyright",
+              "layerID": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb",
+              "accessPath": "/usr/share/doc/netbase/copyright"
+            }
+          ]
+        }
+      ],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:netbase:netbase:5.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/debian/netbase@5.6?arch=all&distro=debian-10",
+      "metadataType": "dpkg-db-entry",
+      "metadata": {
+        "package": "netbase",
+        "source": "",
+        "version": "5.6",
+        "sourceVersion": "",
+        "architecture": "all",
+        "maintainer": "Marco d'Itri <md@linux.it>",
+        "installedSize": 44,
+        "files": []
+      }
+    },
+    {
+      "id": "7ef28bb542c0e39c",
+      "name": "openssl",
+      "version": "1.1.1n",
+      "type": "binary",
+      "foundBy": "binary-classifier-cataloger",
+      "locations": [
+        {
+          "path": "/usr/bin/openssl",
+          "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a",
+          "accessPath": "/usr/bin/openssl",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:openssl:openssl:1.1.1n:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:openssl:openssl:1.1.1n:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:generic/openssl@1.1.1n",
+      "metadataType": "binary-signature",
+      "metadata": {
+        "matches": [
+          {
+            "classifier": "openssl-binary",
+            "location": {
+              "path": "/usr/bin/openssl",
+              "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a",
+              "accessPath": "/usr/bin/openssl",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "30b9749cf7502261",
+      "name": "openssl",
+      "version": "1.1.1n-0+deb10u3",
+      "type": "deb",
+      "foundBy": "dpkg-db-cataloger",
+      "locations": [
+        {
+          "path": "/usr/share/doc/openssl/copyright",
+          "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a",
+          "accessPath": "/usr/share/doc/openssl/copyright",
+          "annotations": {
+            "evidence": "supporting"
+          }
+        },
+        {
+          "path": "/var/lib/dpkg/status.d/openssl",
+          "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a",
+          "accessPath": "/var/lib/dpkg/status.d/openssl",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:openssl:openssl:1.1.1n-0\\+deb10u3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/debian/openssl@1.1.1n-0%2Bdeb10u3?arch=amd64&distro=debian-10",
+      "metadataType": "dpkg-db-entry",
+      "metadata": {
+        "package": "openssl",
+        "source": "",
+        "version": "1.1.1n-0+deb10u3",
+        "sourceVersion": "",
+        "architecture": "amd64",
+        "maintainer": "Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>",
+        "installedSize": 1466,
+        "depends": [
+          "libc6 (>= 2.15)",
+          "libssl1.1 (>= 1.1.1)"
+        ],
+        "files": []
+      }
+    },
+    {
+      "id": "d794a4404b171245",
+      "name": "stdlib",
+      "version": "go1.18.10",
+      "type": "go-module",
+      "foundBy": "",
+      "locations": [
+        {
+          "path": "/vuln-sbom-issue",
+          "layerID": "sha256:fa8135567f4f202fd85a07db823e10dd7c2e8d8bde86872c3bb34831fcb30ab5",
+          "accessPath": "/vuln-sbom-issue",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "BSD-3-Clause",
+          "spdxExpression": "BSD-3-Clause",
+          "type": "declared",
+          "urls": [],
+          "locations": []
+        }
+      ],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:golang:go:1.18.10:-:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/stdlib@1.18.10",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.18.10",
+        "architecture": ""
+      }
+    },
+    {
+      "id": "0a5bce691df568a1",
+      "name": "tzdata",
+      "version": "2021a-0+deb10u6",
+      "type": "deb",
+      "foundBy": "dpkg-db-cataloger",
+      "locations": [
+        {
+          "path": "/usr/share/doc/tzdata/copyright",
+          "layerID": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb",
+          "accessPath": "/usr/share/doc/tzdata/copyright",
+          "annotations": {
+            "evidence": "supporting"
+          }
+        },
+        {
+          "path": "/var/lib/dpkg/status.d/tzdata",
+          "layerID": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb",
+          "accessPath": "/var/lib/dpkg/status.d/tzdata",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:tzdata:tzdata:2021a-0\\+deb10u6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:deb/debian/tzdata@2021a-0%2Bdeb10u6?arch=all&distro=debian-10",
+      "metadataType": "dpkg-db-entry",
+      "metadata": {
+        "package": "tzdata",
+        "source": "",
+        "version": "2021a-0+deb10u6",
+        "sourceVersion": "",
+        "architecture": "all",
+        "maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
+        "installedSize": 3036,
+        "provides": [
+          "tzdata-buster"
+        ],
+        "depends": [
+          "debconf (>= 0.5) | debconf-2.0"
+        ],
+        "files": []
+      }
+    },
+    {
+      "id": "f4df412e9bd4d239",
+      "name": "vuln-sbom-issue",
+      "version": "v0.0.0-20240712154738-219679bf5bcc",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/vuln-sbom-issue",
+          "layerID": "sha256:fa8135567f4f202fd85a07db823e10dd7c2e8d8bde86872c3bb34831fcb30ab5",
+          "accessPath": "/vuln-sbom-issue",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/vuln-sbom-issue@v0.0.0-20240712154738-219679bf5bcc",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goBuildSettings": [
+          {
+            "key": "-compiler",
+            "value": "gc"
+          },
+          {
+            "key": "CGO_ENABLED",
+            "value": "1"
+          },
+          {
+            "key": "CGO_CFLAGS",
+            "value": ""
+          },
+          {
+            "key": "CGO_CPPFLAGS",
+            "value": ""
+          },
+          {
+            "key": "CGO_CXXFLAGS",
+            "value": ""
+          },
+          {
+            "key": "CGO_LDFLAGS",
+            "value": ""
+          },
+          {
+            "key": "GOARCH",
+            "value": "amd64"
+          },
+          {
+            "key": "GOOS",
+            "value": "linux"
+          },
+          {
+            "key": "GOAMD64",
+            "value": "v1"
+          },
+          {
+            "key": "vcs",
+            "value": "git"
+          },
+          {
+            "key": "vcs.revision",
+            "value": "219679bf5bcc0d3cb96aeb29c07025e90a696fd1"
+          },
+          {
+            "key": "vcs.time",
+            "value": "2024-07-12T15:47:38Z"
+          },
+          {
+            "key": "vcs.modified",
+            "value": "true"
+          }
+        ],
+        "goCompiledVersion": "go1.18.10",
+        "architecture": "amd64",
+        "mainModule": "vuln-sbom-issue",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "005579b201dfd693",
+      "child": "7ef28bb542c0e39c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "005579b201dfd693",
+      "child": "7ef28bb542c0e39c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "093d37a7a09a81c0",
+      "child": "aa0e0119bbe1db32",
+      "type": "evident-by"
+    },
+    {
+      "parent": "0a5bce691df568a1",
+      "child": "762674af700dd547",
+      "type": "evident-by"
+    },
+    {
+      "parent": "0ba428bcf57d65eb",
+      "child": "9498dc7dffe45fb7",
+      "type": "evident-by"
+    },
+    {
+      "parent": "0ba428bcf57d65eb",
+      "child": "f4df412e9bd4d239",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0f121fc5f2f6a61d",
+      "child": "7ef28bb542c0e39c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0f121fc5f2f6a61d",
+      "child": "7ef28bb542c0e39c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "110b6fce3332c59d",
+      "child": "7ef28bb542c0e39c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "110b6fce3332c59d",
+      "child": "7ef28bb542c0e39c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+      "child": "093d37a7a09a81c0",
+      "type": "contains"
+    },
+    {
+      "parent": "1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+      "child": "0a5bce691df568a1",
+      "type": "contains"
+    },
+    {
+      "parent": "1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+      "child": "0ba428bcf57d65eb",
+      "type": "contains"
+    },
+    {
+      "parent": "1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+      "child": "2a5997c68ab4fdae",
+      "type": "contains"
+    },
+    {
+      "parent": "1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+      "child": "30b9749cf7502261",
+      "type": "contains"
+    },
+    {
+      "parent": "1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+      "child": "7ef28bb542c0e39c",
+      "type": "contains"
+    },
+    {
+      "parent": "1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+      "child": "a33554133be76f60",
+      "type": "contains"
+    },
+    {
+      "parent": "1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+      "child": "ca5b7c61811429f3",
+      "type": "contains"
+    },
+    {
+      "parent": "1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+      "child": "d794a4404b171245",
+      "type": "contains"
+    },
+    {
+      "parent": "1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+      "child": "f4df412e9bd4d239",
+      "type": "contains"
+    },
+    {
+      "parent": "2a5997c68ab4fdae",
+      "child": "30b9749cf7502261",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "2a5997c68ab4fdae",
+      "child": "72417aa49c09a52e",
+      "type": "evident-by"
+    },
+    {
+      "parent": "2a5997c68ab4fdae",
+      "child": "a33554133be76f60",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "30b9749cf7502261",
+      "child": "8fee6642c9a4cab4",
+      "type": "evident-by"
+    },
+    {
+      "parent": "3cc5e13bf2a20981",
+      "child": "7ef28bb542c0e39c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3cc5e13bf2a20981",
+      "child": "7ef28bb542c0e39c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "7ef28bb542c0e39c",
+      "child": "0fd766ea0519fa0a",
+      "type": "evident-by"
+    },
+    {
+      "parent": "a33554133be76f60",
+      "child": "0ccff86c51af7edc",
+      "type": "evident-by"
+    },
+    {
+      "parent": "a33554133be76f60",
+      "child": "30b9749cf7502261",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "ca5b7c61811429f3",
+      "child": "6b8a4e772d55ceb6",
+      "type": "evident-by"
+    },
+    {
+      "parent": "d794a4404b171245",
+      "child": "9498dc7dffe45fb7",
+      "type": "evident-by"
+    },
+    {
+      "parent": "d794a4404b171245",
+      "child": "f4df412e9bd4d239",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "f4df412e9bd4d239",
+      "child": "9498dc7dffe45fb7",
+      "type": "evident-by"
+    },
+    {
+      "parent": "fc44f097044338c6",
+      "child": "7ef28bb542c0e39c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "fc44f097044338c6",
+      "child": "7ef28bb542c0e39c",
+      "type": "dependency-of"
+    }
+  ],
+  "files": [
+    {
+      "id": "005579b201dfd693",
+      "location": {
+        "path": "/lib/x86_64-linux-gnu/libc-2.28.so",
+        "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": true,
+        "hasEntrypoint": true,
+        "importedLibraries": [
+          "ld-linux-x86-64.so.2"
+        ],
+        "elfSecurityFeatures": {
+          "symbolTableStripped": true,
+          "stackCanary": true,
+          "nx": true,
+          "relRO": "partial",
+          "pie": false,
+          "dso": true,
+          "safeStack": false
+        }
+      }
+    },
+    {
+      "id": "fc44f097044338c6",
+      "location": {
+        "path": "/lib/x86_64-linux-gnu/libdl-2.28.so",
+        "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": true,
+        "hasEntrypoint": true,
+        "importedLibraries": [
+          "libc.so.6",
+          "ld-linux-x86-64.so.2"
+        ],
+        "elfSecurityFeatures": {
+          "symbolTableStripped": true,
+          "stackCanary": true,
+          "nx": true,
+          "relRO": "partial",
+          "pie": false,
+          "dso": true,
+          "safeStack": false
+        }
+      }
+    },
+    {
+      "id": "3cc5e13bf2a20981",
+      "location": {
+        "path": "/lib/x86_64-linux-gnu/libpthread-2.28.so",
+        "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": true,
+        "hasEntrypoint": true,
+        "importedLibraries": [
+          "libc.so.6",
+          "ld-linux-x86-64.so.2"
+        ],
+        "elfSecurityFeatures": {
+          "symbolTableStripped": false,
+          "stackCanary": true,
+          "nx": true,
+          "relRO": "partial",
+          "pie": false,
+          "dso": true,
+          "safeStack": false,
+          "cfi": false,
+          "fortify": false
+        }
+      }
+    },
+    {
+      "id": "0fd766ea0519fa0a",
+      "location": {
+        "path": "/usr/bin/openssl",
+        "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": true,
+        "hasEntrypoint": true,
+        "importedLibraries": [
+          "libssl.so.1.1",
+          "libcrypto.so.1.1",
+          "libdl.so.2",
+          "libpthread.so.0",
+          "libc.so.6"
+        ],
+        "elfSecurityFeatures": {
+          "symbolTableStripped": true,
+          "stackCanary": true,
+          "nx": true,
+          "relRO": "full",
+          "pie": true,
+          "dso": true,
+          "safeStack": false
+        }
+      }
+    },
+    {
+      "id": "0f121fc5f2f6a61d",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1",
+        "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": true,
+        "hasEntrypoint": true,
+        "importedLibraries": [
+          "libdl.so.2",
+          "libpthread.so.0",
+          "libc.so.6"
+        ],
+        "elfSecurityFeatures": {
+          "symbolTableStripped": true,
+          "stackCanary": true,
+          "nx": true,
+          "relRO": "full",
+          "pie": false,
+          "dso": true,
+          "safeStack": false
+        }
+      }
+    },
+    {
+      "id": "110b6fce3332c59d",
+      "location": {
+        "path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1",
+        "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": true,
+        "hasEntrypoint": true,
+        "importedLibraries": [
+          "libcrypto.so.1.1",
+          "libdl.so.2",
+          "libpthread.so.0",
+          "libc.so.6"
+        ],
+        "elfSecurityFeatures": {
+          "symbolTableStripped": true,
+          "stackCanary": true,
+          "nx": true,
+          "relRO": "full",
+          "pie": false,
+          "dso": true,
+          "safeStack": false
+        }
+      }
+    },
+    {
+      "id": "aa0e0119bbe1db32",
+      "location": {
+        "path": "/var/lib/dpkg/status.d/base",
+        "layerID": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb"
+      }
+    },
+    {
+      "id": "72417aa49c09a52e",
+      "location": {
+        "path": "/var/lib/dpkg/status.d/libc6",
+        "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a"
+      }
+    },
+    {
+      "id": "0ccff86c51af7edc",
+      "location": {
+        "path": "/var/lib/dpkg/status.d/libssl1",
+        "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a"
+      }
+    },
+    {
+      "id": "6b8a4e772d55ceb6",
+      "location": {
+        "path": "/var/lib/dpkg/status.d/netbase",
+        "layerID": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb"
+      }
+    },
+    {
+      "id": "8fee6642c9a4cab4",
+      "location": {
+        "path": "/var/lib/dpkg/status.d/openssl",
+        "layerID": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a"
+      }
+    },
+    {
+      "id": "762674af700dd547",
+      "location": {
+        "path": "/var/lib/dpkg/status.d/tzdata",
+        "layerID": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb"
+      }
+    },
+    {
+      "id": "9498dc7dffe45fb7",
+      "location": {
+        "path": "/vuln-sbom-issue",
+        "layerID": "sha256:fa8135567f4f202fd85a07db823e10dd7c2e8d8bde86872c3bb34831fcb30ab5"
+      },
+      "executable": {
+        "format": "elf",
+        "hasExports": true,
+        "hasEntrypoint": true,
+        "importedLibraries": [
+          "libpthread.so.0",
+          "libc.so.6"
+        ],
+        "elfSecurityFeatures": {
+          "symbolTableStripped": false,
+          "stackCanary": false,
+          "nx": true,
+          "relRO": "none",
+          "pie": false,
+          "dso": false,
+          "safeStack": false,
+          "cfi": false,
+          "fortify": false
+        }
+      }
+    }
+  ],
+  "source": {
+    "id": "1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+    "name": "gobuild",
+    "version": "one",
+    "type": "image",
+    "metadata": {
+      "userInput": "gobuild:one",
+      "imageID": "sha256:f10fde0c36b25c6a823e1cdb2228d34a19b18a514f7609a50f778416f2822279",
+      "manifestDigest": "sha256:1b9675dee84450781f1be5b0841c976d5584382c926d4599b0c77d1d32980678",
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "tags": [
+        "gobuild:one"
+      ],
+      "imageSize": 21237577,
+      "layers": [
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "digest": "sha256:05ef21d763159987b9ec5cfb3377a61c677809552dcac3301c0bde4e9fd41bbb",
+          "size": 1799679
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "digest": "sha256:91f7bcfdfda81b6c6e51b8e1da58b48759351fa4fae9e6841dd6031528f63b4a",
+          "size": 17416465
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "digest": "sha256:fa8135567f4f202fd85a07db823e10dd7c2e8d8bde86872c3bb34831fcb30ab5",
+          "size": 2021433
+        }
+      ],
+      "manifest": "eyJzY2hlbWFWZXJzaW9uIjoyLCJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmRpc3RyaWJ1dGlvbi5tYW5pZmVzdC52Mitqc29uIiwiY29uZmlnIjp7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuY29udGFpbmVyLmltYWdlLnYxK2pzb24iLCJzaXplIjoxMDM1LCJkaWdlc3QiOiJzaGEyNTY6ZjEwZmRlMGMzNmIyNWM2YTgyM2UxY2RiMjIyOGQzNGExOWIxOGE1MTRmNzYwOWE1MGY3Nzg0MTZmMjgyMjI3OSJ9LCJsYXllcnMiOlt7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjozMDUxNTIwLCJkaWdlc3QiOiJzaGEyNTY6MDVlZjIxZDc2MzE1OTk4N2I5ZWM1Y2ZiMzM3N2E2MWM2Nzc4MDk1NTJkY2FjMzMwMWMwYmRlNGU5ZmQ0MWJiYiJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjE3ODA3MzYwLCJkaWdlc3QiOiJzaGEyNTY6OTFmN2JjZmRmZGE4MWI2YzZlNTFiOGUxZGE1OGI0ODc1OTM1MWZhNGZhZTllNjg0MWRkNjAzMTUyOGY2M2I0YSJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjIwMjM0MjQsImRpZ2VzdCI6InNoYTI1NjpmYTgxMzU1NjdmNGYyMDJmZDg1YTA3ZGI4MjNlMTBkZDdjMmU4ZDhiZGU4Njg3MmMzYmIzNDgzMWZjYjMwYWI1In1dfQ==",
+      "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImF1dGhvciI6IkJhemVsIiwiY29uZmlnIjp7IlVzZXIiOiIwIiwiRW52IjpbIlBBVEg9L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluIiwiU1NMX0NFUlRfRklMRT0vZXRjL3NzbC9jZXJ0cy9jYS1jZXJ0aWZpY2F0ZXMuY3J0Il0sIkNtZCI6WyIvdnVsbi1zYm9tLWlzc3VlIl0sIldvcmtpbmdEaXIiOiIvIiwiQXJnc0VzY2FwZWQiOnRydWV9LCJjcmVhdGVkIjoiMjAyNC0wNy0xMlQxNjo1NDo1OC4wNjAwMDU4NzJaIiwiaGlzdG9yeSI6W3siY3JlYXRlZCI6IjE5NzAtMDEtMDFUMDA6MDA6MDBaIiwiY3JlYXRlZF9ieSI6ImJhemVsIGJ1aWxkIC4uLiIsImF1dGhvciI6IkJhemVsIn0seyJjcmVhdGVkIjoiMTk3MC0wMS0wMVQwMDowMDowMFoiLCJjcmVhdGVkX2J5IjoiYmF6ZWwgYnVpbGQgLi4uIiwiYXV0aG9yIjoiQmF6ZWwifSx7ImNyZWF0ZWQiOiIyMDI0LTA3LTEyVDE2OjU0OjU4LjA2MDAwNTg3MloiLCJjcmVhdGVkX2J5IjoiQ09QWSAvdnVsbi1zYm9tLWlzc3VlIC92dWxuLXNib20taXNzdWUgIyBidWlsZGtpdCIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIn0seyJjcmVhdGVkIjoiMjAyNC0wNy0xMlQxNjo1NDo1OC4wNjAwMDU4NzJaIiwiY3JlYXRlZF9ieSI6IkNNRCBbXCIvdnVsbi1zYm9tLWlzc3VlXCJdIiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAiLCJlbXB0eV9sYXllciI6dHJ1ZX1dLCJvcyI6ImxpbnV4Iiwicm9vdGZzIjp7InR5cGUiOiJsYXllcnMiLCJkaWZmX2lkcyI6WyJzaGEyNTY6MDVlZjIxZDc2MzE1OTk4N2I5ZWM1Y2ZiMzM3N2E2MWM2Nzc4MDk1NTJkY2FjMzMwMWMwYmRlNGU5ZmQ0MWJiYiIsInNoYTI1Njo5MWY3YmNmZGZkYTgxYjZjNmU1MWI4ZTFkYTU4YjQ4NzU5MzUxZmE0ZmFlOWU2ODQxZGQ2MDMxNTI4ZjYzYjRhIiwic2hhMjU2OmZhODEzNTU2N2Y0ZjIwMmZkODVhMDdkYjgyM2UxMGRkN2MyZThkOGJkZTg2ODcyYzNiYjM0ODMxZmNiMzBhYjUiXX19",
+      "repoDigests": [],
+      "architecture": "amd64",
+      "os": "linux"
+    }
+  },
+  "distro": {
+    "prettyName": "Distroless",
+    "name": "Debian GNU/Linux",
+    "id": "debian",
+    "version": "Debian GNU/Linux 10 (buster)",
+    "versionID": "10",
+    "homeURL": "https://github.com/GoogleContainerTools/distroless",
+    "supportURL": "https://github.com/GoogleContainerTools/distroless/blob/master/README.md",
+    "bugReportURL": "https://github.com/GoogleContainerTools/distroless/issues/new"
+  },
+  "descriptor": {
+    "name": "syft",
+    "version": "1.9.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "image"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "conan-info-cataloger",
+          "dotnet-portable-executable-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "go-module-binary-cataloger",
+          "graalvm-native-image-cataloger",
+          "java-archive-cataloger",
+          "javascript-package-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-store-cataloger",
+          "php-composer-installed-cataloger",
+          "php-pecl-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "r-package-cataloger",
+          "rpm-db-cataloger",
+          "ruby-installed-gemspec-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "java-binary-openjdk",
+          "java-binary-ibm",
+          "java-binary-oracle",
+          "java-binary-graalvm",
+          "java-binary-jdk",
+          "nodejs-binary",
+          "go-binary-hint",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-cli-binary",
+          "php-fpm-binary",
+          "php-apache-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "consul-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary"
+        ],
+        "golang": {
+          "local-mod-cache-dir": "/usr/local/workspace/go/pkg/mod",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": true,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-remote-licenses": false
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "max-parent-recursive-depth": 5,
+          "use-network": false
+        },
+        "javascript": {
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "python": {
+          "guess-unpinned-requirements": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.0.14",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.0.14.json"
+  }
+}
